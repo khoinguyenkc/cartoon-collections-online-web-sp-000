@@ -33,4 +33,9 @@ def find_the_cheese(array)# code an argument here
   array.find do |item|
     cheese_types.include?(item)
   end
+  #find method either return item or nil
 end
+#instead of saying if item = cheessetypes[0] || item == cheestypes[1] etc... or iterating through
+#i can just ask if the cheestype include that item
+#so simple yet not obvious
+#good choices are all about this
