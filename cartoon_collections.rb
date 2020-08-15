@@ -9,7 +9,9 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   newarray = array.map do |item|
     "#{item.capitalize}!"
-  end 
+  end
+
+puts  summon_captain_planet(["hi", "hello"])
 
 end
 
