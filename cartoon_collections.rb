@@ -9,7 +9,8 @@ def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map do |item|
     "#{item.capitalize}!"
-
+    #the map method returns the new array and since it's the last thing in the method, it's the return of the method
+    #u can store it in a variable if u want  but no need
   end
 
 
