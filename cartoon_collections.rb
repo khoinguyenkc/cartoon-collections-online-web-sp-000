@@ -22,10 +22,7 @@ def long_planeteer_calls(array)# code an argument here
   result = array.find do |item|
     item.size > 4
   end
-  if result
-    puts result
-    return true
-  end
+  result ? true : false
 end
 
 puts long_planeteer_calls(["hi", "hel", "hello"])
