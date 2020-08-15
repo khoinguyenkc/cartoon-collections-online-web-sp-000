@@ -36,4 +36,5 @@ def find_the_cheese(array)# code an argument here
 end
 
 puts find_the_cheese(["hi", "gouda", "hola"])
-puts find_the_cheese(["hi", "cilantro", "hola"])
+a = find_the_cheese(["hi", "cilantro", "hola"])
+a.class
