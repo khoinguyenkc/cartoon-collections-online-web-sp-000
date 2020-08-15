@@ -37,4 +37,4 @@ end
 
 puts find_the_cheese(["hi", "gouda", "hola"])
 a = find_the_cheese(["hi", "cilantro", "hola"])
-a.class
+puts a.class
